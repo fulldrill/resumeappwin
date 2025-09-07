@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                bat 'https://github.com/fulldrill/resumesitemac.git'
+                bat 'https://github.com/fulldrill/resumeappwin.git'
             }
         }
 
